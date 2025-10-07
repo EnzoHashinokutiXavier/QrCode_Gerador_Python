@@ -1,19 +1,24 @@
-## Gerador de QRcode
+## QRcode generator
 
-Um gerador simples de qr code em python utilizando a biblioteca "qrcode"
+QRcode generator, using python API
 
 ---
 
-### **INSTALAÇÃO**
+### **Installation**
 
-```qrcode
-pip install qrcode[pil]
+```
+pip install -r requirements.txt
 ```
 
 ---
 
-### **Como Usar**
+### **Guide**
 
-- **Link** Cole o link desejado na linha : img = qrcode.make("---Seu link aqui---")
-
-- **Arquivo** Digite o nome de arquivo desejado com .png no final : img.save("nome.png", "PNG")
+- terminal
+```
+flask run
+```
+- browser
+```
+http://127.0.0.1:5000
+```
